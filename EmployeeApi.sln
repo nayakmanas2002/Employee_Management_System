@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeApi", "EmployeeApi\EmployeeApi.csproj", "{852518C1-5A59-4F43-B939-68ECC8047D58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scriptss", "Scriptss", "{2CCF8C6E-2732-4F0B-9EAC-38C4500F0D59}"
+	ProjectSection(SolutionItems) = preProject
+		seed.sql = seed.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{852518C1-5A59-4F43-B939-68ECC8047D58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{852518C1-5A59-4F43-B939-68ECC8047D58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{852518C1-5A59-4F43-B939-68ECC8047D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{852518C1-5A59-4F43-B939-68ECC8047D58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2CCF8C6E-2732-4F0B-9EAC-38C4500F0D59} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {389CB40C-50E7-4617-81DD-C3E2A7FFD9F8}
+	EndGlobalSection
+EndGlobal
