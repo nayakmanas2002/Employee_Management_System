@@ -32,5 +32,16 @@ The API supports **CRUD operations**, **search/filter/pagination**, and is fully
 ---
 
 ## 📂 Project Structure
-
+EmployeeApi.sln
+├─ src/
+│ └─ EmployeeApi/
+│ ├─ Controllers/ # API endpoints
+│ ├─ Services/ # Business logic
+│ ├─ Data/ # EF Core DbContext
+│ ├─ Model/Entities/ # Entity classes
+│ ├─ DTOs/ # Request/Response objects
+│ ├─ Mapping/ # AutoMapper profiles
+│ └─ Program.cs # Application startup
+└─ Scripts/
+└─ seed.sql # Database creation & sample data
 
